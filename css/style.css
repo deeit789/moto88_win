@@ -1,0 +1,117 @@
+html,
+body {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+
+  background: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: top right;
+
+  padding-bottom: 5rem;
+}
+
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background: #00000070;
+}
+
+.wrapper {
+}
+
+.bg {
+  background-color: #27aae2;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #27aae2;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.list-tutorial {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+
+.item-tutorial {
+  margin-top: 5rem;
+  width: 255px;
+  height: 520px;
+}
+
+.container-content {
+  background-color: #fff;
+}
+
+.box-benefit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #27aae2;
+  padding: 3rem 0;
+}
+
+.title-benefit {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sub-benefit {
+  font-size: 2rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.title-content {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #27aae2;
+  padding: 5rem 0;
+}
+
+.content p {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.content img {
+  padding: 3rem 0;
+}
+
+@media screen and (max-width: 1279.98px) {
+  .list-tutorial {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .list-tutorial {
+    grid-template-columns: auto;
+  }
+
+  .box-benefit {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .item-benefit {
+    margin-top: 2rem;
+  }
+
+  .title-content {
+    line-height: 4rem;
+  }
+}
